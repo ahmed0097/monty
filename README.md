@@ -1,4 +1,4 @@
-#Stacks, Queues - LIFO, FIFO
+# Stacks, Queues - LIFO, FIFO
 
 Description
 
@@ -7,7 +7,7 @@ Monty features an unusually flexible type system in which all values
 are viewed as objects in a single-inheritance class hierarchy,
 static and dynamic typing are smoothly integrated.
 
-#Usage
+# Usage
 
 Includes monty.h
 The file argument must have a .m extension.
@@ -24,7 +24,7 @@ push 5    $
       push    6        $
 pall$
 
-#OpCodes
+# OpCodes
 
 OpCode	Description
 push <int>	pushes an element to the stack
@@ -39,7 +39,7 @@ pall	prints all the values on the stack, starting from the top of the stack
 'mul'	multiplies the second top element of the stack with the top element of the stacks
 'mod'	computes the rest of the division of the second top element of the stack by the top element of the stack
 
-#About
+# About
 
 This project was created by Ahmed Zghal & Ali Dehissy
 

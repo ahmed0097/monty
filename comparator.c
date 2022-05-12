@@ -1,4 +1,4 @@
-#include "monty.h"
+#include "main.h"
 
 /**
  * compare - a function that compares the string from getline to the opcode
@@ -15,18 +15,15 @@ void compare(char *token, stack_t **stack, unsigned int line_number)
 
 	instruction_t func_list[] = {
 		{"push", push},
-		{"pint", pint},
 		{"pall", pall},
+		{"pint", pint},
 		{"pop", pop},
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
-		{"mul", mul},
-		{"sub", sub},
-		{"mod", mod},
-		{"div", divide},
 		{NULL, NULL}
 	};
+
 	for (i = 0; func_list[i].opcode != NULL; i++)
 		if (strcmp(token, func_list[i].opcode) == 0)
 		{

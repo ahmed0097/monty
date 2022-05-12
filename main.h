@@ -62,6 +62,7 @@ void errorHandler2(unsigned int errno, unsigned int line_number);
 char *isNumber(char *value, unsigned int line_number);
 void compare(char *token, stack_t **stack, unsigned int line_number);
 void push(stack_t **stack, unsigned int line_number);
+void pall(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
